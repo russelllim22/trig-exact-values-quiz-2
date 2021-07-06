@@ -29,7 +29,7 @@
     if(currentScore < 7){successMessage = "Keep practising!"}
     else if(currentScore < 10){successMessage = "Almost there!"}
     else if(currentScore < 15){successMessage = "You made the grade!"}
-    else if(currentScore < 20){successMessage = "You nailed it!"}
+    else if(currentScore < 20){successMessage = "Excellent!"}
     else{successMessage = "You are a trig-star!"}
 
 </script>
