@@ -17,8 +17,8 @@
         document.querySelector("#success-message").style.opacity = 1;
 
         console.log('the game is over');
-        
-        window.parent.postMessage({"message":"the game is over","correct":currentScore,"errors":numErrors,"settings":"here are the settings"},"*")
+        let gameSettings = document.querySelector("#trig-functions").value + "; " + document.querySelector("#angle-units").value.substr(0,15) + "; " + document.querySelector("#angle-quadrants").value;
+        window.parent.postMessage({"message":"the game is over","correct":currentScore,"errors":numErrors,"settings":gameSettings},"https:/10minutequiz.com/")
 
     },3000);
     setTimeout(()=>{
