@@ -58,6 +58,7 @@
         currentScore += 1;
         if(currentScore === 20){
             gameOver = true;
+            window.clearTimeout(gameTimer);
         }
         currentQuestion = [];
         let buttons = document.querySelectorAll("#button-wrapper button");
