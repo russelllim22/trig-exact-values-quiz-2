@@ -176,8 +176,6 @@
         gameOver = true;
         window.clearTimeout(gameTimer);
         gameTimer = 0;
-        console.log('gameTimer')
-        console.log(gameTimer)
         currentScore = 0; 
         numErrors = 0;
         if(angleTypes.includes("radians")){

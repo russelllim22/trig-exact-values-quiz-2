@@ -16,8 +16,9 @@
     setTimeout(()=>{
         document.querySelector("#success-message").style.opacity = 1;
 
-        console.log('the game is over')
-        window.parent.postMessage(`[{"message":"the game is over","correct":${currentScore}},"errors":${numErrors},"settings":"here are the settings"}]`,"*")
+        console.log('the game is over');
+        
+        window.parent.postMessage({"message":"the game is over","correct":currentScore,"errors":numErrors,"settings":"here are the settings"},"*")
 
     },3000);
     setTimeout(()=>{
