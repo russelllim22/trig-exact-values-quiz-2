@@ -25,7 +25,7 @@
     const Q2Angles = ["120","135","150","180"];
     const Q34Angles = ["210","225","240","270","300","315","330","360","390","405","420","450","480","495","510","540"];
     const negativeAngles = ["-30","-45","-60","-90","-120","-135","-150","-180","-210","-225","-240","-270","-300","-315","-330"];
-    let gameOver = false, gameTimer = 0, currentScore = 17, numErrors = 0, toolBarOpen = false;
+    let gameOver = false, gameTimer = 0, currentScore = 18, numErrors = 0, toolBarOpen = false;
     let correctAns, angleType, showAngle = false, showLength = "", wrongAgain = false, settingChanged = false;;
     let trigFunctions = ["sin","cos","tan"], angleTypes = ["degrees","radians","radians"], angleQuadrants = ["Q1","Q2","Q3","Q4"];
     let possibleAngles = Q1Angles.concat(Q2Angles).concat(Q34Angles);      
