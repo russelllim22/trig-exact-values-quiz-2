@@ -55,7 +55,7 @@
                 gameTimer = setTimeout(()=>{
                     gameOver = true;
                 },120000)
-            }}">Try again</button>
+            }}">Restart</button>
         </p>
         
     </div>
