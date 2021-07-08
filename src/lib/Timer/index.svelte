@@ -1,7 +1,7 @@
 <svg>
     <circle r="18" cx="42" cy="42" style={gameTimer ? "animation: countdown 120s linear infinite forwards" : ""}></circle>
-    <text x="42" y="32">2</text>
-    <text x="42" y="52">min</text>
+    <text x="42" y="36">2</text>
+    <text x="42" y="56">min</text>
 </svg>
 
 <script>
@@ -13,12 +13,12 @@
         width: 85px;
         height: 85px;
         position: absolute;
-        top: 8px;
-        right: 8px;
+        top: 0px;
+        right: 36px;
     }
     @media only screen and (max-width: 600px){
         svg{
-            right: -5px;
+            /*right: -5px;*/
         }
     }
     svg circle {
@@ -41,5 +41,6 @@
         stroke: none;
         fill: #2c2f33;
         font-family: arial;
+        font-size: 20px;
     }
 </style>
